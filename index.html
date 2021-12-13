@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bit-Games</title>
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body class="bg-dark">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-nav-custom">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Navbar brand -->
+          <a class="navbar-brand mt-2 mt-lg-0" href="#">
+            <img
+              src="assets/img/logo.png"
+              height="40"
+              alt="Bit-Games Logo"
+              loading="lazy"
+            />
+          </a>
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Biblioteca</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tienda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recomendaciones</a>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+
+        <!-- Right elements -->
+        <div class="d-flex align-items-center">
+          <!-- Icon -->
+          <a class="text-reset me-3" href="#">
+            <i class="fas fa-shopping-cart text-white"></i>
+          </a>
+
+          <!-- Notifications -->
+          <a
+            class="text-reset me-3 dropdown-toggle hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bell text-white"></i>
+            <span class="badge rounded-pill badge-notification bg-danger"
+              >1</span
+            >
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <li>
+              <a class="dropdown-item" href="#">Some news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Another news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+
+          <!-- Avatar -->
+          <a
+            class="dropdown-toggle d-flex align-items-center hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="https://mdbootstrap.com/img/new/avatars/2.jpg"
+              class="rounded-circle"
+              height="25"
+              alt="Black and White Portrait of a Man"
+              loading="lazy"
+            />
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <li>
+              <a class="dropdown-item" href="#">My profile</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Settings</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Right elements -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Banner -->
+    <section>
+      <!-- Background image -->
+      <div
+        id="intro-example"
+        class="p-5 text-center bg-image"
+        style="
+          background-image: url('assets/img/halo.jpg');
+        "
+      >
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.7)">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-3">Learn Bootstrap 5 with MDB</h1>
+              <h5 class="mb-4">Best & free guide of responsive web design</h5>
+              <a
+                class="btn btn-outline-light btn-lg m-2"
+                href="https://www.youtube.com/watch?v=c9B4TPnak1A"
+                role="button"
+                rel="nofollow"
+                target="_blank"
+                >Start tutorial</a
+              >
+              <a
+                class="btn btn-outline-light btn-lg m-2"
+                href="https://mdbootstrap.com/docs/standard/"
+                target="_blank"
+                role="button"
+                >Download MDB UI KIT</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    </section>
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"
+    ></script>
+  </body>
+</html>

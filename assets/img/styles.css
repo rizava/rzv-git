@@ -1,0 +1,27 @@
+.bg-nav-custom {
+    background: rgb(80, 22, 77);
+    background: linear-gradient(
+      20deg,
+      rgba(80, 22, 77, 1) 35%,
+      rgba(182, 73, 73, 1) 100%
+    );
+  }
+  
+  /* Default height for small devices /
+  #intro-example {
+    height: 400px;
+  }
+  
+  / Height for devices larger than 992px */
+  
+  @media (min-width: 760px) {
+      #intro-example {
+        height: 500px;
+      }
+    }
+  
+  @media (min-width: 992px) {
+    #intro-example {
+      height: 700px;
+    }
+  }
